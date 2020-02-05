@@ -1,7 +1,7 @@
 # Python for Neuroscientists
 ## Sagol School for Neuroscience, Tel Aviv University
-### Spring semester, 2019
-#### By Hagai Har-Gil, hagaihargil@protonmail.com
+### Spring semester, 2020
+#### By Hagai Har-Gil, hagaihargil[at]protonmail[dot]com
 
 This repository contains material for the Python for Neuroscience course.
 The materials include classes, some assignments and other useful information.
@@ -17,8 +17,6 @@ please don't hesitate to create a pull request with the new resource you found.
 
 ## Homework Assignments:
 
-* Assignment 1 - the assignment is described in the `assignments/assignments1`. Grades were handed out as issues in your repos.
-* Assignment 2 - Click [here](https://classroom.github.com/a/Lk_aw7SK) to open the repo. _Deadline:_ April 1st, 2019, 15:00.
 
 ## Hackathon
 
