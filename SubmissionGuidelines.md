@@ -1,5 +1,7 @@
 # Submission Guidelines
 
+(Irrelevant for execrise 1)
+
 1. Each home assignment contains at least one question. Each question should have its own file,
 labeled clearly. Unless stated otherwise, all functions used to solve that specific question
 should be located inside that `.py` file.
