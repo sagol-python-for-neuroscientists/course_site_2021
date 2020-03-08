@@ -10,6 +10,7 @@ Below you can find the tools we'll use throughout the semester to work with Pyth
 4. Now that you have Python installed, you probably want to write some code to go along with it. Python code can be written in any editor, as long as the file is saved with a `.py` suffix. However, some editors are better than others, containing more features and making the developers' lives easier. In this course I _highly recommend_ using Visual Studio Code (VSCode) as your main editor, especially if you have no previous Python experience. To install it, download it from its [download page](https://code.visualstudio.com/Download). After installing it, you'll also have to install the Python Extension, which can be found either inside VSCode (in the extensions menu on the left side of your screen) or from [here](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 5. Lastly, you'll have to help VSCode find your Python installation. After opening a `.py` file (you can create one just for this purpose), click on the yellow "Select Python Environment" button on the bottom left side of your screen and select from the list the conda "base" environment.
 6. That's it! Python is installed and you're ready to code.
+Note: After that Python installation will finish you'll probably receive quite a few prompts from VSCode regarding the installation of different packages and libraries. Feel free to press Yes on all of them, they're not malware and they'll generally improve the behavior of this editor.
 
 ## Task 2: Version Control
 
