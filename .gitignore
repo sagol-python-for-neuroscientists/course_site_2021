@@ -111,3 +111,5 @@ hackathon2019*
 XDG*/
 .idea/
 *.csv
+
+.vscode/
