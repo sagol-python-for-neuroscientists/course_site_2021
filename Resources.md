@@ -16,6 +16,7 @@ Please suggest pull requests with useful websites and PDFs that you find during 
 - [Numpy for MATLAB users](https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html)
 - [Introduction to pandas data structures](http://pandas.pydata.org/pandas-docs/stable/dsintro.html)
 - [Scipy Lecture Notes](http://www.scipy-lectures.org/)
+- [Python and Matlab](https://realpython.com/matlab-vs-python/)
 
 ## General Programming:
 - [Software Carpentry](https://software-carpentry.org/lessons/) - wide variety of lessons
@@ -23,3 +24,4 @@ Please suggest pull requests with useful websites and PDFs that you find during 
 - [Git Cheat Sheet, by Patrick Zahnd](http://www.patrickzahnd.ch/uploads/git-transport-v1.png)
 - Best practices for software development - [Article 1](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745), [Article 2](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510), [Video](https://www.youtube.com/watch?v=wkboQuY8Tjg&t=550s)
 - [GitHub interactive course](https://lab.github.com/)
+- [Software Carpentry](https://software-carpentry.org/) - intro to Python, git, testing, etc.
