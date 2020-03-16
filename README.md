@@ -14,6 +14,7 @@ General questions - both technical and Python-related - can be posted to the "Is
 ## Homework Assignments:
 
 * Assignment 1 - When it's uploaded, the assignment will be described in the `assignments/assignments1`.
+* Assignment 2 - Click [here](https://classroom.github.com/a/LtzsOIun) to receive a link to the assignment.
 
 ## Hackathon
 
