@@ -8,3 +8,4 @@ def check_palindrome():
     It should print out the first number (with a palindrome in its last 4 digits),not all four "versions" of it.
     """
     # Your code goes here...
+
