@@ -113,3 +113,4 @@ XDG*/
 *.csv
 
 .vscode/
+classes/data.txt
