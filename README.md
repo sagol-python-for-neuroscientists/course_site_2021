@@ -11,6 +11,8 @@ If you come across any useful learning resources which are not listed in `Resour
 
 General questions - both technical and Python-related - can be posted to the "Issues" tab on the top of this screen. I'll do my best to answer them as soon as possible.
 
+All classes that are held online are being held in [this Zoom link](https://zoom.us/j/780376669).
+
 ## Homework Assignments:
 
 * Assignment 1 - The full solution and grades can be found in `assignments/assignments1`.
@@ -19,3 +21,5 @@ General questions - both technical and Python-related - can be posted to the "Is
 ## Hackathon
 
 The course's final project will be completed during a hackathon orchestrated by the Sagol school. A list of projects will be created later on this semester, and each student will assign him or herself to a project. Dates for the hackathon will be announced during the semster.
+
+Note: Due to COVID-19 we'll probably change the format of this event to an online meeting. More news to follow.
