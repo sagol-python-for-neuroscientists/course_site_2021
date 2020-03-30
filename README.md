@@ -17,6 +17,7 @@ All classes that are held online are being held in [this Zoom link](https://zoom
 
 * Assignment 1 - The full solution and grades can be found in `assignments/assignments1`.
 * Assignment 2 - Click [here](https://classroom.github.com/a/LtzsOIun) to receive a link to the assignment. Deadline: 30.3.20, 15:00.
+* Assignment 3 - Click [here](https://classroom.github.com/a/4UvjEB_-) to receive a link to the assignment. Deadline: 13.4.20, 15:00.
 
 ## Hackathon
 
