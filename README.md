@@ -18,9 +18,9 @@ All classes that are held online are being held in [this Zoom link](https://zoom
 * Assignment 1 - The full solution and grades can be found in `assignments/assignments1`.
 * Assignment 2 - Click [here](https://classroom.github.com/a/LtzsOIun) to receive a link to the assignment. Deadline: 30.3.20, 15:00. The full solution and grades can be found in `assignments/assignment2`.
 * Assignment 3 - Click [here](https://classroom.github.com/a/4UvjEB_-) to receive a link to the assignment. Deadline: 13.4.20, 15:00.
-* Assignment 4 - Click [here](https://classroom.github.com/a/aR1N9NrI) to receive a link to the assignment. Deadline: 4.5.20, 15:00.
+* Assignment 4 - Click [here](https://classroom.github.com/a/aR1N9NrI) to receive a link to the assignment. Deadline: 4.5.20, 15:00. The solution and grades were uploaded to `assignments/assignment3`.
 * Assignment 5 - Click [here](https://github.com/sagol-python-for-neuroscientists/hw5) to reach the assignment. _Submission is different this time_. Deadline: 18.5.20, 15:00.
 
 ## Hackathon
 
-The course's final project will be completed during a hackathon orchestrated by the Sagol school. Please send me by mail suggestions for suitable projects. More details were given in the lecture conducted on 4.5.20.
+The course's final project will be completed during a "hackathon" in which groups of students will have a week to work on a given, research-oriented, project. Please send me by mail suggestions for suitable projects. The possible dates for the events are listed in [this doodle poll,](https://doodle.com/poll/w2pv95ae6udzncbm) please mark all available dates. Note that "available" doesn't mean full, 7-day, availablity. The project will requrie you to work a few hours every day on it, but as long as there's no big test during the week you should be able to manage working on the project in parallel to your other responsibilities.
