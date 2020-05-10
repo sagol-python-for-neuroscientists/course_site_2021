@@ -17,8 +17,8 @@ All classes that are held online are being held in [this Zoom link](https://zoom
 
 * Assignment 1 - The full solution and grades can be found in `assignments/assignments1`.
 * Assignment 2 - Click [here](https://classroom.github.com/a/LtzsOIun) to receive a link to the assignment. Deadline: 30.3.20, 15:00. The full solution and grades can be found in `assignments/assignment2`.
-* Assignment 3 - Click [here](https://classroom.github.com/a/4UvjEB_-) to receive a link to the assignment. Deadline: 13.4.20, 15:00.
-* Assignment 4 - Click [here](https://classroom.github.com/a/aR1N9NrI) to receive a link to the assignment. Deadline: 4.5.20, 15:00. The solution and grades were uploaded to `assignments/assignment3`.
+* Assignment 3 - Click [here](https://classroom.github.com/a/4UvjEB_-) to receive a link to the assignment. Deadline: 13.4.20, 15:00. The solution and grades were uploaded to `assignments/assignment3`.
+* Assignment 4 - Click [here](https://classroom.github.com/a/aR1N9NrI) to receive a link to the assignment. Deadline: 4.5.20, 15:00. The solution and grades were uploaded to `assignments/assignment4`.
 * Assignment 5 - Click [here](https://github.com/sagol-python-for-neuroscientists/hw5) to reach the assignment. _Submission is different this time_. Deadline: 18.5.20, 15:00.
 
 ## Hackathon
