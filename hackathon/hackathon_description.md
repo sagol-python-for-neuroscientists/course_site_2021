@@ -70,11 +70,30 @@ The project revolves around a computational pipeline which is aimed at detecting
 #### Number of students per project: 2
 #### Relevant Libraries: `pandas`, `scikit-image`, `dask`
 
-## Project 7: Tracking Analysis of Fluorescent Images
+## Project 7: Tracking Fluorescent Images
 ### Mentor: Mirna Safieh, Lab of Prof. Daniel Michaelson
 
-fsfsdfsfsd
+Our goal is to track a single protein, ABCA-1, as it moves around in the membrane of HeLa cells. The raw data is composed of a timelapse of images taken from a TIRF microscope (seen below). After loading the data, the main goal would be to reliably track each particle in the image as it moves through the field of view. Once the tracking is set you'll measure the fluorescence of that particle over time, and possibly compare the mobility of the particles and segment them into two distinct groups. 
+
+![Tracking project](./prj7_tracking.png)
 
 #### Number of students per project: 2
-#### Relevant libraries: `pandas`, `scikit-image`, `opencv`
+#### Relevant libraries: `scikit-image`, `opencv`, `matplotlib`
 
+## Project 8: Distance-based Clustering
+### Mentor: Prof. Uri Ashery
+
+This project's goal is to analyze clusters of particles which were images using the dSTORM method, as seen in the attached image. A specific method of analysis that detects these clusters already exists, but it's unusable in its current state, so the goal is to reproduce previous results which were made with the same algorithm, but make it easier to use and more efficient. A GUI will also be used to let the user input the clustering parameters and see how well they do.
+
+![Clustering project](./prj8_cluster.png)
+
+#### Number of students per project: 2-3
+#### Relevant libraries: `scikit-image`, `PySimpleGUI`, `seaborn`, `pandas` 
+
+## Project 9: Eye Tracker Data Analysis
+### Mentor: Chelsea Gober, Lab of Prof. Yair Bar-Haim
+
+This project analyzes data from an eye tracker to see whether a novel approach can prevent post-traumatic stress symptoms. The general idea is to "prepare" the subjects for intrusive stimuli so that when they actually occur these subjects will be less susceptible to trauma. To do that, subjects undergo experiments with an eye tracker which measures their response to aversive visual stimuli, and the analysis of gazing patterns may reveal whether the novel treatment did indeed reduce subject's deterrence from the stimuli.
+
+#### Number of students per project: 2
+#### Relevant libraries: `pandas`, `seaborn`
