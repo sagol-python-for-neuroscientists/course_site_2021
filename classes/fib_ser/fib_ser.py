@@ -1,19 +1,25 @@
-"""
-__author__ = Hagai Har-Gil
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 
 
 class CompareSeries:
-    """ Compare Fibonacci series to prime numbers series """
-    def __init__(self, n):
+    """Compare Fibonacci series to prime numbers series by subtracting
+    them.
+
+    The main method of the class is `compare`.
+
+    Parameters
+    ----------
+    n : int
+        Number of items to compare
+    """
+    def __init__(self, n: int):
         self._validate_nonneg_int(n)
         self.n = n
 
-    def _validate_nonneg_int(self, n):
+    def _validate_nonneg_int(self, n: int):
         if not isinstance(n, int) or n < 0:
-            raise TypeError("n must be a non-negative number")
+            raise TypeError("n must be a non-negative integer.")
 
     def compare(self):
         """ Run the comparison of the series """
@@ -25,8 +31,14 @@ class CompareSeries:
         self._plot(diff)
         return diff
 
-    def _plot(self, diff):
-        """ Plots the given results """
+    def _plot(self, diff: np.ndarray):
+        """Plots the given results.
+
+        Parameters
+        ----------
+        diff : np.ndarray
+            The resulting array to plot
+        """
         _, ax = plt.subplots()
         ax.plot(diff, 'o')
         ax.set_title('Fibonacci - Primes')
