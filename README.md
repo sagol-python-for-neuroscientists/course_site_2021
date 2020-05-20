@@ -20,8 +20,8 @@ All classes that are held online are being held in [this Zoom link](https://zoom
 * Assignment 3 - Click [here](https://classroom.github.com/a/4UvjEB_-) to receive a link to the assignment. Deadline: 13.4.20, 15:00. The solution and grades were uploaded to `assignments/assignment3`.
 * Assignment 4 - Click [here](https://classroom.github.com/a/aR1N9NrI) to receive a link to the assignment. Deadline: 4.5.20, 15:00. The solution and grades were uploaded to `assignments/assignment4`.
 * Assignment 5 - Click [here](https://github.com/sagol-python-for-neuroscientists/hw5) to reach the assignment. _Submission is different this time_. Deadline: 18.5.20, 15:00.
-* Assignment 6 - Click [here](https://classroom.github.com/a/yfxlrRzQ) to receive a link to the assignment. Deadline: 1.6.20, 15:00. 
+* Assignment 6 - Click [here](https://classroom.github.com/a/yfxlrRzQ) to receive a link to the assignment. Deadline: 1.6.20, 15:00.
 
 ## Hackathon (22-29.7)
 
-The course's final project will be completed during a "hackathon" in which groups of students will have a week to work on a given, research-oriented, project. **The chosen date is the 22-29.7**. The project will requrie you to work a few hours every day on it, but as long as there's no big test during the week you should be able to manage working on the project in parallel to your other responsibilities.
+The course's final project will be completed during a "hackathon" in which groups of students will have a week to work on a given, research-oriented, project. **The chosen date is the 22-29.7**. Please go over to the `hackathon` folder and read the [project descriptions](hackathon/hackathon_description.md). You should rank your favorite projects ASAP.
