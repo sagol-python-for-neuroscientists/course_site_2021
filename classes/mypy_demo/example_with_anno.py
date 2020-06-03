@@ -21,7 +21,7 @@ class DataParser:
 
     def __create_global_vars(self) -> None:
         self.a: int = 1
-        self.b: float = 2.
+        self.b: float = 2.0
 
     def __process(self, pre: float) -> List[int]:
         pre += 1
@@ -33,5 +33,5 @@ class DataParser:
         print(result)
 
 
-if __name__ == '__main__':
-    DataParser('a', 'b').run()
+if __name__ == "__main__":
+    DataParser("a", "b").run()
