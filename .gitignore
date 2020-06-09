@@ -111,6 +111,6 @@ hackathon2019*
 XDG*/
 .idea/
 *.csv
-
-.vscode/
 classes/data.txt
+.vscode/
+dask-worker-space/
