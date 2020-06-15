@@ -24,4 +24,4 @@ All classes that are held online are being held in [this Zoom link](https://zoom
 
 ## Hackathon (22-29.7)
 
-The course's final project will be completed during a "hackathon" in which groups of students will have a week to work on a given, research-oriented, project. **The chosen date is the 22-29.7**. Please go over to the `hackathon` folder and read the [project descriptions](hackathon/hackathon_description.md). You should rank your favorite projects ASAP.
+The course's final project will be completed during a "hackathon" in which groups of students will have a week to work on a given, research-oriented, project. **The chosen date is the 22-29.7**. Your group is listed in the `hackathon` folder, please check it out and join the Slack workspace [here](https://join.slack.com/t/sagolhackathon2020/shared_invite/zt-f97gk2b5-gE3UFQbaQOE4ig75Z7qtew). We'll set up a meeting with each team shortly.
