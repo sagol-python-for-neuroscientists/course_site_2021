@@ -114,3 +114,24 @@ XDG*/
 classes/data.txt
 .vscode/
 dask-worker-space/
+
+
+# homework's answers and grades
+# HW1
+assignments/assignment1/*ques*
+assignments/assignment1/*.pdf
+# HW2
+assignments/assignment2
+# HW3
+assignments/assignment3
+# HW4
+assignments/assignment4
+# HW5
+assignments/assignment5
+# HW6
+assignments/assignment6
+
+# Others
+hackathon/
+classes/
+resources
