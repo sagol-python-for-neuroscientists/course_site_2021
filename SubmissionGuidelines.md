@@ -2,9 +2,7 @@
 
 (Irrelevant for execrise 1)
 
-1. Each home assignment contains at least one question. Each question should have its own file,
-labeled clearly. Unless stated otherwise, all functions used to solve that specific question
-should be located inside that `.py` file.
+1. Each home assignment contains at least one question. Each question should have its own file, labeled clearly. Unless stated otherwise, all functions used to solve that specific question should be located inside that `.py` file.
 
 2. To clarify, if a homework assignment has three questions, the submission should contain three files:
     - `hw1_question1.py`
@@ -25,9 +23,8 @@ should be located inside that `.py` file.
     ```
 
     * The first line checks that this file was run as the main file. If indeed so, it executes the following code block.
-    * Your solution has to be run from a single function. If you wish to execute several
-    functions\methods in your solution, do so inside this main function.
-    * All needed arguments for the _single main function_, called `function_for_question1` in the case, should be defined.
+    * Your solution has to be run from a single function. If you wish to execute several functions\methods in your solution, do so inside this main function.
+    * All needed arguments for the _single main function_, called `function_for_question1` in that case, should be defined.
     * Usually the name of this main function will be defined in the homework assignment.
     * Any returned values should be captured and printed if necessary.
     * If you wrote your script as detailed, running the answer to a question should be as easy as writing `python /path/to/hw1_question2.py` in the command line.
