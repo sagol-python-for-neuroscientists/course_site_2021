@@ -1,6 +1,6 @@
-# Homework Assignment, 09-03-2020
+# Homework Assignment, 08-03-2021
 
-## Due date: 16-03-2020, 15:00
+## Due date: 15-03-2021, 15:00
 
 1. _Three consecutive double-letter words:_ Write a program that receives a word
 and checks whether it has three consecutive pairs of identical letters in it.
