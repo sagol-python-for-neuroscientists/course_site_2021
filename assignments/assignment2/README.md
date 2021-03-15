@@ -1,7 +1,7 @@
 # Homework Assignment #2
 
 ### Date: 16-03-2021
-### Due date: 30-3-2021, 15:00
+### Due date: 30-3-2021, 16:15
 
 This exercise's purpose is to help you familiarize yourself with some parts of the rich Python standard library. The two questions below can be solved
 quite simply with existing functions that do (almost) exactly what I'm asking for, give or take some effort by you :)
