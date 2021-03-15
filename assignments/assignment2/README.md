@@ -6,6 +6,8 @@
 This exercise's purpose is to help you familiarize yourself with some parts of the rich Python standard library. The two questions below can be solved
 quite simply with existing functions that do (almost) exactly what I'm asking for, give or take some effort by you :)
 
+To access the assignment, please [click here](https://classroom.github.com/a/u9jzHfvB), accept the assignment and begin working through it.
+
 
 ## Question 1: Morse Code Interpreter
 
