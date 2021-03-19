@@ -118,8 +118,8 @@ dask-worker-space/
 
 # homework's answers and grades
 # HW1
-assignments/assignment1/*ques*
-assignments/assignment1/*.pdf
+# assignments/assignment1/*ques*
+assignments/assignment1/*old.pdf
 # HW2
 assignments/assignment2/*.pdf
 assignments/assignment2/*hw*

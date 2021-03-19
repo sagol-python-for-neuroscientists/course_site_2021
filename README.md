@@ -15,5 +15,5 @@ To get started with python, please follow the instructions described in [this li
 * [Assignment 1](assignments/assignment1/HW1.md)
 * [Assignment 2](assignments/assignment2/README.md)
 
-General submission guidelines (for all other assignments) can be found in [this link](SubmissionGuidelines.md).
+General submission guidelines can be found in [this link](SubmissionGuidelines.md).
 
