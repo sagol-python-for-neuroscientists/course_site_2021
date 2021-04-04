@@ -121,9 +121,9 @@ dask-worker-space/
 # assignments/assignment1/*ques*
 assignments/assignment1/*old.pdf
 # HW2
-assignments/assignment2/*.pdf
-assignments/assignment2/*hw*
-assignments/assignment2/*morse.txt
+# assignments/assignment2/*.pdf
+# assignments/assignment2/*hw*
+# assignments/assignment2/*morse.txt
 # HW3
 assignments/assignment3
 # HW4
