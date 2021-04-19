@@ -8,6 +8,8 @@
 
 **Tests are run with `pytest`. It's time to learn how to use it :)**
 
+To access the assignment, please [click here](https://classroom.github.com/a/IVim-w1e), accept the assignment and begin working through it.
+
 1. _Mandelbrot Set:_
 
    A number is a part of the [Mandelbrot set](https://www.youtube.com/watch?v=FFftmWSzgmk) if `|z| < thresh`,
