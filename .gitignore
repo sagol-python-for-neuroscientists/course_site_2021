@@ -128,7 +128,8 @@ assignments/assignment1/*old.pdf
 assignments/assignment3/hw*
 assignments/assignment3/Grades*
 # HW4
-assignments/assignment4
+assignments/assignment4/hw*
+assignments/assignment4/Grades*
 # HW5
 assignments/assignment5
 # HW6
