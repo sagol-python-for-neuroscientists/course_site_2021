@@ -125,8 +125,8 @@ assignments/assignment1/*old.pdf
 # assignments/assignment2/*hw*
 # assignments/assignment2/*morse.txt
 # HW3
-assignments/assignment3/hw*
-assignments/assignment3/Grades*
+assignments/assignment3/hw
+assignments/assignment3/Grades
 # HW4
 assignments/assignment4/hw*
 assignments/assignment4/Grades*
