@@ -47,18 +47,24 @@ The following questions should be answered by writing additional method(s) that 
    ```
 
 2. Participants without a valid email are useless since we can't contact them. Remove all of the rows with an invalid address and return the new DataFrame.
+   A valid email address is one that follows these conditions:
+   - Contains exactly one "@" sign, but doesn't start or end with it.
+   - Contains a "." sign, but doesn't start or end with it.
+   - The letter following the "@" sign (i.e, appears after it) must not be ".".
 
-   ```python
-   def remove_rows_without_mail(self) -> pd.DataFrame:
-       """Checks self.data for rows with invalid emails, and removes them.
+You're obviously encouraged to think of other email-defining conditions.
 
-   Returns
-   -------
-   df : pd.DataFrame
-     A corrected DataFrame, i.e. the same table but with the erroneous rows removed and
-     the (ordinal) index after a reset.
-       """
-   ```
+```python
+def remove_rows_without_mail(self) -> pd.DataFrame:
+    """Checks self.data for rows with invalid emails, and removes them.
+
+Returns
+-------
+df : pd.DataFrame
+  A corrected DataFrame, i.e. the same table but with the erroneous rows removed and
+  the (ordinal) index after a reset.
+    """
+```
 
 3. Some participants haven't answered all of the question. It was decided that the grade for those missing questions will be the average grade of the other question for that subject. Write a method that works on the original DataFrame (in `self.data`), replaces the missing values with the mean for that subject in the other questions and returns the corrected DataFrame as well as a `np.array` of the indices of the rows that were corrected.
 
