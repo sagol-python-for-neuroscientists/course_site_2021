@@ -129,9 +129,11 @@ assignments/assignment3/hw
 assignments/assignment3/Grades
 # HW4
 assignments/assignment4/hw*
+assignments/assignment4/*.zip
 assignments/assignment4/Grades*
 # HW5
-assignments/assignment5
+assignments/assignment5/hw*
+assignments/assignment5/Grades**
 # HW6
 assignments/assignment6
 
