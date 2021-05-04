@@ -1,5 +1,4 @@
 import pathlib
-import datetime
 
 import pytest
 
@@ -78,14 +77,12 @@ def test_fillna_rows():
 
 
 def test_fillna_df():
-    truth = pd.read_csv(
-        "tests_data/q3_fillna.csv", index_col=False, parse_dates=["timestamp"]
-    ).drop("Unnamed: 0", axis=1)
+    truth = pd.read_csv("tests_data/q3_fillna.csv")
     fname = "data.json"
     q = QuestionnaireAnalysis(fname)
     q.read_data()
     df, _ = q.fill_na_with_mean()
-    pd.testing.assert_frame_equal(df, truth)
+    df.equals(truth)
 
 
 def test_score_exists():
@@ -105,9 +102,9 @@ def test_score_dtype():
 
 
 def test_score_results():
-    truth = pd.read_csv("tests_data/q4_score.csv", squeeze=True, index_col=0).astype(
-        "UInt8"
-    )
+    truth = pd.read_csv(
+        "tests_data/q4_score.csv", squeeze=True, index_col=0
+    ).astype("UInt8")
     fname = "data.json"
     q = QuestionnaireAnalysis(fname)
     q.read_data()

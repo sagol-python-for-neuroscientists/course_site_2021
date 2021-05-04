@@ -22,5 +22,6 @@ To get started with python, please follow the instructions described in [this li
 - [Assignment 2](assignments/assignment2/README.md)
 - [Assignment 3](https://classroom.github.com/a/F2aSSaRW) - [Template repository](assignments/assignment3/README.md)
 - [Assignment 4](https://classroom.github.com/a/IVim-w1e) - [Template repository](assignments/assignment4/README.md)
+- [Assignment 5](https://github.com/sagol-python-for-neuroscientists/hw5)
 
 General submission guidelines can be found in [this link](SubmissionGuidelines.md).

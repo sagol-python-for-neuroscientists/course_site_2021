@@ -131,7 +131,7 @@ The following questions should be answered by writing additional method(s) that 
 
 ## Submission
 
-The submission will be done via a pull request to this repository. A pull request is a common action when using Git and GitHub, and it represents the mechanism by which two or more programmers work on the same codebase. This operation pings the owner of the repository, i.e. the main code author, presenting changes that you think should be done to the code inside that repository.
+The submission will be done via a pull request to [this repository](https://github.com/sagol-python-for-neuroscientists/hw5). A pull request is a common action when using Git and GitHub, and it represents the mechanism by which two or more programmers work on the same codebase. This operation pings the owner of the repository, i.e. the main code author, presenting changes that you think should be done to the code inside that repository.
 
 Contributions to most open-source projects, from tiny command-line utilities to the Linux operating systems, are done using pull requests. You can read more about them [here](https://help.github.com/en/articles/about-pull-requests), and I've also given more details and examples during class 7.
 
