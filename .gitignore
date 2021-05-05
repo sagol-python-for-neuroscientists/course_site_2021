@@ -110,7 +110,7 @@ venv.bak/
 hackathon2019*
 XDG*/
 .idea/
-*.csv
+# *.csv
 classes/data.txt
 .vscode/
 dask-worker-space/
@@ -132,7 +132,7 @@ assignments/assignment3/Grades
 assignments/assignment4/*.zip
 # assignments/assignment4/Grades*
 # HW5
-assignments/assignment5/hw*
+assignments/assignment5/hw5.py
 assignments/assignment5/Grades**
 # HW6
 assignments/assignment6
