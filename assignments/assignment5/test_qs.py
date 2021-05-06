@@ -116,3 +116,6 @@ def test_correlation():
     q.read_data()
     df = q.correlate_gender_age()
     pd.testing.assert_frame_equal(df, truth)
+
+if __name__ == '__main__':
+    test_email_validation()
