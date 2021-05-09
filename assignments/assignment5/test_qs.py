@@ -118,4 +118,4 @@ def test_correlation():
     pd.testing.assert_frame_equal(df, truth)
 
 if __name__ == '__main__':
-    test_email_validation()
+    test_fillna_df()
