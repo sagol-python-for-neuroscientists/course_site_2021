@@ -14,20 +14,16 @@ class QuestionnaireAnalysis:
     """
 
     def __init__(self, data_fname: Union[pathlib.Path, str]):
-        self.data_fname = data_fname
-        self.read_data()
-        print()
+        self.data = None
+        if not os.path.exists(data_fname):
+            raise ValueError
+        self.data_fname = pathlib.Path(data_fname)
 
     def read_data(self):
         """Reads the json data located in self.data_fname into memory, to
         the attribute self.data.
         """
-        if not os.path.exists(self.data_fname):
-            raise ValueError
-        try:
-            self.data = pd.read_json(self.data_fname)
-        except ValueError as e:
-            self.data = None
+        self.data = pd.read_json(self.data_fname)
 
     def show_age_distrib(self) -> Tuple[np.ndarray, np.ndarray]:
         """Calculates and plots the age distribution of the participants.
@@ -55,7 +51,7 @@ class QuestionnaireAnalysis:
             """
         self.data.dropna()
         df = self.data[self.data['email'].notna()]
-        return df[df.apply(lambda x: self.is_email_valid(x, x['email']), axis=1)]
+        return df[df.apply(lambda x: self.is_email_valid(x, x['email']), axis=1)].reset_index()
 
     @staticmethod
     def is_email_valid(t, email):
@@ -102,6 +98,58 @@ class QuestionnaireAnalysis:
                 df1.loc[index, nan_idx] = valid_answers_mean
 
         return row
+
+    def score_subjects(self, maximal_nans_per_sub: int = 1) -> pd.DataFrame:
+        """Calculates the average score of a subject and adds a new "score" column
+        with it.
+
+        If the subject has more than "maximal_nans_per_sub" NaN in his grades, the
+        score should be NA. Otherwise, the score is simply the mean of the other grades.
+        The datatype of score is UInt8, and the floating point raw numbers should be
+        rounded down.
+
+        Parameters
+        ----------
+        maximal_nans_per_sub : int, optional
+            Number of allowed NaNs per subject before giving a NA score.
+
+        Returns
+        -------
+        pd.DataFrame
+            A new DF with a new column - "score".
+        """
+        df1 = pd.DataFrame(data=self.data)
+        df = pd.DataFrame(data=df1, columns=self.Q_KEYS)
+        df1['score'] = 0
+
+        for index, row in df.iterrows():
+            not_nan_series = row.notna()
+            grades = row[not_nan_series]
+            if len(grades) >= len(row) - maximal_nans_per_sub:
+                mean = grades.mean().astype(np.uint8)
+                df1.iloc[index, list(self.data.columns).index('score')] = mean
+            else:
+                df1.iloc[index, list(self.data.columns).index('score')] = np.nan
+        df1['score'] = df1['score'].astype("UInt8")
+        return df1
+
+    def correlate_gender_age(self) -> pd.DataFrame:
+        """Looks for a correlation between the gender of the subject, their age
+        and the score for all five questions.
+
+    Returns
+    -------
+    pd.DataFrame
+        A DataFrame with a MultiIndex containing the gender and whether the subject is above
+        40 years of age, and the average score in each of the five questions.
+    """
+        df = pd.DataFrame(data=self.data, columns=self.Q_KEYS)
+        df_index = pd.concat([df.index.to_series(), self.data['gender'], self.data['age'] >= 40], axis=1)
+        df_index = pd.MultiIndex.from_frame(df_index, names=[0, 'gender', 'age'])
+        df.set_index(df_index, inplace=True)
+        df.dropna()
+        return df.groupby(['gender', 'age']).mean()
+
 
 
 if __name__ == '__main__':

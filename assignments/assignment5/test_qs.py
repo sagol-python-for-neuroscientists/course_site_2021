@@ -118,12 +118,4 @@ def test_correlation():
     pd.testing.assert_frame_equal(df, truth)
 
 if __name__ == '__main__':
-    test_valid_input()
-    # test_str_input()
-    # test_missing_file()
-    # test_wrong_input_type()
-    # test_data_attr_exists()
-    # test_data_attr_is_df()
-    # test_correct_age_distrib_hist()
-    # test_correct_age_distrib_edges()
-    # test_fillna_df()
+    test_correlation()
