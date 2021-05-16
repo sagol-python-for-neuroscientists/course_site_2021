@@ -2,7 +2,7 @@
 
 ## Date: 04-05-2021
 
-## Due date: 18-05-2021, 15:00
+## Due date: 22-05-2021, 23:59
 
 **Do not change the signature (definition) of the functions in the exercise.**
 
