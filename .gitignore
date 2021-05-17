@@ -135,7 +135,8 @@ assignments/assignment4/*.zip
 assignments/assignment5/hw5.py
 assignments/assignment5/Grades**
 # HW6
-assignments/assignment6
+assignments/assignment6/*.py
+assignments/assignment6/*.pdf
 
 # Others
 hackathon/
