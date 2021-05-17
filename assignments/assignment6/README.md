@@ -6,6 +6,8 @@
 
 ## Three-dimensional _Submarines_ Game
 
+### To accept this assignment, as always, click [here](https://classroom.github.com/a/LZaDvQri).
+
 This homework has but one assignment - design a "Submarines" game, AKA "Battleship". As you might recall,
 in Submarines each player has a board, hidden from his or her opponent, with "submarine-like" pieces
 placed on it. At each turn a player targets a specific cell in the other player's board, in
