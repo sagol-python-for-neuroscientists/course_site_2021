@@ -43,9 +43,9 @@ class QuestionnaireAnalysis:
        hist_ages = self.data["age"]
        hist_bins = range(0,101,10)
        hist, bins = np.histogram(hist_ages, hist_bins)
-    #    _ = plt.hist(hist_ages, hist_bins)
-    #    plt.title("Age Distribution")
-    #    plt.show()
+       _ = plt.hist(hist_ages, hist_bins)
+       plt.title("Age Distribution")
+       plt.show()
        return (hist, bins)
        
     """
