@@ -132,8 +132,8 @@ assignments/assignment3/Grades
 assignments/assignment4/*.zip
 # assignments/assignment4/Grades*
 # HW5
-assignments/assignment5/hw5.py
-assignments/assignment5/Grades**
+# assignments/assignment5/hw5.py
+# assignments/assignment5/Grades**
 # HW6
 assignments/assignment6/*.py
 assignments/assignment6/*.pdf
