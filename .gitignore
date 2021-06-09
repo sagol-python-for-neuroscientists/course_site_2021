@@ -135,8 +135,8 @@ assignments/assignment4/*.zip
 # assignments/assignment5/hw5.py
 # assignments/assignment5/Grades**
 # HW6
-assignments/assignment6/*.py
-assignments/assignment6/*.pdf
+# assignments/assignment6/*.py
+# assignments/assignment6/*.pdf
 
 # Others
 hackathon/
@@ -144,3 +144,5 @@ classes/
 resources
 students.xlsx
 */*/students.xlsx
+calc_students_grades.ipynb
+assignments_grades.xlsx
