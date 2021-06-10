@@ -23,7 +23,7 @@ Subjects were given six weeks to play a piano equipped with a logging device. Th
 ### Nitzan Shahar's Lab
 
 In the field of computational neuropsychiatry, hierarchical feature
-selection is commonly implemented using expecQuantifying the interaction between blood vessels and neuronstation maximization (EM). The focus of this project it to translate the functionality of a popular MATLAB library used for this purpose ([emfit](https://github.com/mpc-ucl/emfit/)) to Python. The final goal is to create a "complete" foundation for easy EM calculation using a well documented and tested Python packcage.
+selection is commonly implemented using expectation maximization (EM). The focus of this project it to translate the functionality of a popular MATLAB library used for this purpose ([emfit](https://github.com/mpc-ucl/emfit/)) to Python. The final goal is to create a "complete" foundation for easy EM calculation using a well documented and tested Python packcage.
 
 ![EM](https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif)
 
