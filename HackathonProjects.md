@@ -22,8 +22,7 @@ Subjects were given six weeks to play a piano equipped with a logging device. Th
 
 ### Nitzan Shahar's Lab
 
-In the field of computational neuropsychiatry, hierarchical feature
-selection is commonly implemented using expectation maximization (EM). The focus of this project it to translate the functionality of a popular MATLAB library used for this purpose ([emfit](https://github.com/mpc-ucl/emfit/)) to Python. The final goal is to create a "complete" foundation for easy EM calculation using a well documented and tested Python packcage.
+In the field of computational neuropsychiatry, hierarchical parameter estimation is commonly implemented using expectation maximization (EM). The focus of this project it to translate the functionality of a popular MATLAB library used for this purpose ([emfit](https://github.com/mpc-ucl/emfit/)) to Python. The final goal is to create a "complete" foundation for easy EM calculation using a well documented and tested Python packcage.
 
 ![EM](https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif)
 
@@ -41,9 +40,9 @@ Autonomic nervous system related signals (galvanic skin response, ECG, respirati
 
 ### Pablo Blinder's Lab
 
-The project's goal is to use an in-house library created in conjunction with Dan Halperin's lab from the CS deptartment to compute the alpha shapes of real neuronal and vascular data. Alpha shapes are a measure of complexity and "hiddenness" taken from the field of computational geometry, and we believe that its application in the context of neurons in general, and the interaction and position of them inside the vasculature in particular, is novel.
+The project's goal is to use an in-house library created in conjunction with Dan Halperin's lab from the CS department to compute the alpha shapes of real neuronal and vascular data. Alpha shapes are a measure of complexity and "hiddenness" taken from the field of computational geometry, and we believe that its application in the context of neurons in general, and the interaction and position of them inside the vasculature in particular, is novel. In this project, we seek to apply this novel metric to the most detailed piece of the mouse brain ever reconstructed through serial electron microscopy<sup><a href="https://www.biorxiv.org/content/biorxiv/early/2018/11/03/460618.full.pdf">[1]</a></sup>.
 
-![alpha](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12862-018-1305-z/MediaObjects/12862_2018_1305_Fig1_HTML.png)
+![EM](images/Motta%20et%20al%20Science%202019.png)
 
 ## EAG quality assurance, preprocessing and visualization
 
